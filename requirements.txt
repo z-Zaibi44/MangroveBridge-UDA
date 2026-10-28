@@ -1,0 +1,15 @@
+# Starting dependencies for Python 3.11; not a tested environment lock.
+# Choose a CUDA-specific torch build separately if required.
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+rasterio
+geopandas
+shapely
+numba
+prosail
+torch
+jupyterlab
+ipykernel

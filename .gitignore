@@ -1,0 +1,38 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local study inputs and generated artifacts
+data/
+outputs/
+results/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.tif
+*.tiff
+*.img
+*.dat
+*.hdr
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.npz
+*.npy
+
+# Local system / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
