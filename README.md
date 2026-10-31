@@ -1,12 +1,12 @@
 # MangroveBridge-UDA
 
-**Physics-guided leaf-to-UAV unsupervised domain adaptation for mangrove condition mapping.**
+**Physics-guided leaf-to-UAV canopy unsupervised domain adaptation for mangrove health assessment.**
 
-MangroveBridge-UDA transfers labelled leaf spectra to unlabelled UAV hyperspectral imagery and produces pixel- and crown-level condition maps. It combines a PROSPECT/4SAIL physics bridge with spectral state-space and attention blocks, evidential ordinal prediction, and domain adaptation.
+MangroveBridge-UDA transfers condition-discriminative information from labelled laboratory leaf spectra to unlabelled UAV hyperspectral imagery. It combines PROSPECT-D/4SAIL canopy simulation, a wavelength-aware hybrid state-space/attention encoder, evidential ordinal learning, class-prior-aware adversarial and covariance alignment, and uncertainty-gated mean-teacher self-training.
+
+The framework distinguishes Healthy, Transitional, and Stressed conditions using a controlled laboratory senescence gradient. Pixel-wise evidential predictions are aggregated within LiDAR-derived individual crown polygons to produce crown-level condition maps with associated uncertainty. The manuscript evaluates predictions against independent in situ physiological reference labels.
 
 **Author:** Zohaib Raza · Department of Land Surveying and Geoinformatics · The Hong Kong Polytechnic University
-
-**Research code:** This initial repository packages the supplied implementation. No study data, trained weights, benchmark scores, or manuscript DOI are bundled. Full training and mapping have not been verified during repository preparation.
 
 ## Method overview
 
@@ -113,8 +113,3 @@ The notebook's section markdown contains method-specific literature links. Repos
 - [THUML Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library) — domain-adaptation examples, documentation, installation and dataset organization.
 - [PROSAIL Python bindings](https://github.com/jgomezdans/prosail) — PROSPECT and 4SAIL interfaces used by the physics bridge.
 
-## Citation and reuse
-
-No paper title, publication status, DOI or software DOI has been assigned in this repository. Until formal citation metadata is supplied, identify the repository, author and exact commit used in your methods.
-
-No open-source license has been selected for this initial private repository. Repository access alone does not grant reuse rights; the author should choose an appropriate license before a public code release. Third-party dependencies retain their own licenses.
