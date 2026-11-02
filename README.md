@@ -6,7 +6,7 @@ MangroveBridge-UDA transfers condition-discriminative information from labelled 
 
 The framework distinguishes Healthy, Transitional, and Stressed conditions using a controlled laboratory senescence gradient. Pixel-wise evidential predictions are aggregated within LiDAR-derived individual crown polygons to produce crown-level condition maps with associated uncertainty. The manuscript evaluates predictions against independent in situ physiological reference labels.
 
-**Author:** Zohaib Raza · Department of Land Surveying and Geoinformatics · The Hong Kong Polytechnic University
+**Author:** Zohaib · Department of Land Surveying and Geospatial Science· The Hong Kong Polytechnic University
 
 ## Method overview
 
